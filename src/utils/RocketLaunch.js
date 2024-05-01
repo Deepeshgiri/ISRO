@@ -12,7 +12,8 @@ function Rocket() {
         if (!data) {
           throw new Error("Unable to fetch data");
         }
-        setLaunches(data);
+        const sortedData = [...data].sort((a, b) => new Date(b.launchDate) - new Date(a.launchDate));
+        setLaunches(sortedData);
       } catch (error) {
         console.log(error);
       }

@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<RocketLaunch />} />
+        <Route path="/ISRO" element={<RocketLaunch />} />
         <Route path="/customersatellite" element={<IcustomerSatellite />} />
         <Route path="/spacecrafts" element={<Ispacecrafts />} />
         <Route path="/centres" element={<Icenters />} />

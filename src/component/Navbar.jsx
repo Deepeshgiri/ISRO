@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate()
 
 
   return (
     <div>
       <nav className="navbar">
-        <div className="navbar-logo">ISRO INFO</div>
+        <div className="navbar-logo"style={{cursor:"pointer"}} onClick={()=>navigate('/ISRO')}>ISRO INFO</div>
        
         <label htmlFor="drawer-toggle" className="menu-icon">
           &#9776;
