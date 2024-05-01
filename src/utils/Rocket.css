@@ -1,0 +1,12 @@
+/* Rocket.css */
+.rocket-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the container to fill the viewport height */
+}
+
+.heroimage {
+  max-width: 100%; /* Ensure the image does not exceed the width of its container */
+  height: auto; /* Allow the image to scale proportionally */
+}
