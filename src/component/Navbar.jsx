@@ -30,7 +30,7 @@ function Navbar() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/launchers" className="nav-link">
+            <Link to="/ISRO" className="nav-link">
               Launchers
             </Link>
           </li>
